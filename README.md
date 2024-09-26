@@ -1,6 +1,6 @@
 # Image-Classification-Workflow-Using-Amazon Web Services(AWS)
 
-## Project Overvew
+## Project Overview
 This project implements an image classification system using Amazon SageMaker and AWS Step Functions. It enables the classification of images (bicycles vs. motorcycles) and integrates model monitoring, data capture, and serverless workflows.
 
 ## Project Structure
