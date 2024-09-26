@@ -14,13 +14,12 @@ As a part of the project assessment in Udacity's AWS Machine Learning Nanodegree
 2. classifyImage: Decodes the image, performs classification using the SageMaker endpoint, and returns the inferences
 3. filterInferences: Filters out low-confidence predictions (below a threshold of 0.7)
 
+### Step Functions Workflow
+Designed a Step Functions workflow that chains the Lambda functions together, handling inputs and outputs.
 ####  Graph view of the working step function
 ![Graph View](Images/Working_Step_Functions.png)
 ####  Table view of the working step function
 ![Table View](Images/Working_Step_Function_Table.png)
-
-### Step Functions Workflow
-Designed a Step Functions workflow that chains the Lambda functions together, handling inputs and outputs.
 
 ### Testing and Evaluation
 1. Executed several Step Function invocations using test images, generating both successful and failed predictions
