@@ -34,7 +34,7 @@ def lambda_handler(event, context):
 
 
 
-"Lambda function 2: C;assify Image"
+"Lambda function 2: Classify Image"
 import json
 import base64
 import boto3
