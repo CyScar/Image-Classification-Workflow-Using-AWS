@@ -22,7 +22,7 @@ Designed a Step Functions workflow that chains the Lambda functions together, ha
 ![Table View](Images/Table_view_workflow.png)
 
 ### Testing and Evaluation
-1. Executed several Step Function invocations using test images, generating both successful and failed predictions
+1. Executed several Step Function invocations using test images to capture inferences
 2. Downloaded and visualized inference data from SageMaker Model Monitor
 
 ## Conclusion
