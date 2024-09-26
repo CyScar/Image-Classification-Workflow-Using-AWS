@@ -23,9 +23,9 @@
           "BackoffRate": 2
         }
       ],
-      "Next": "Classify Image"
+      "Next": "Classify"
     },
-    "Classify Image": {
+    "Classify": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
       "OutputPath": "$.Payload",
@@ -57,6 +57,19 @@
         "Payload.$": "$",
         "FunctionName": "arn:aws:lambda:us-east-1:019222849370:function:filterInference:$LATEST"
       },
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException",
+            "Lambda.TooManyRequestsException"
+          ],
+          "IntervalSeconds": 1,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
       "End": true,
       "InputPath": "$.body"
     }
