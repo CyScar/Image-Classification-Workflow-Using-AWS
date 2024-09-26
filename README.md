@@ -13,9 +13,9 @@ As a part of the project assessment in Udacity's AWS Machine Learning Nanodegree
 1. serializeImageData: Copies an image from S3 and encodes it in base64
 2. classifyImage: Decodes the image, performs classification using the SageMaker endpoint, and returns the inferences
 3. filterInferences: Filters out low-confidence predictions (below a threshold of 0.7)
-Working step function
-![Graph View](Images/Working_Step_Functions.png)
-![Table View](Images/Working_Step_Function_Table.png)
+
+![Graph View](Images/Working_Step_Functions.png “Graph view of the working step function”)
+![Table View](Images/Working_Step_Function_Table.png “Table view of the working step function”)
 
 ### Step Functions Workflow
 Designed a Step Functions workflow that chains the Lambda functions together, handling inputs and outputs.
