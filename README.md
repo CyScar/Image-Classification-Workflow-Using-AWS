@@ -16,6 +16,8 @@ As a part of the project assessment in Udacity's AWS Machine Learning Nanodegree
 
 ### Step Functions Workflow
 Designed a Step Functions workflow that chains the Lambda functions together, handling inputs and outputs.
+####  Failed step function when the inference value does not meet the threshold
+![Failed_Graph View](Images/Failed_Case_Step_Function.png)
 ####  Graph view of the working step function
 ![Graph View](Images/Graph_view_workflow.png)
 ####  Table view of the working step function
