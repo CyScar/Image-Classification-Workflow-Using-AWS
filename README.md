@@ -26,4 +26,4 @@ Designed a Step Functions workflow that chains the Lambda functions together, ha
 2. Downloaded and visualized inference data from SageMaker Model Monitor
 
 ## Conclusion
-This project highlights the development and deployment of an image classification model using Amazon SageMaker and AWS Step Functions. We built a system that classifies images while effectively monitoring performance and managing inputs through Lambda functions. The successful testing of this workflow demonstrates its capability to handle both accurate predictions and errors efficiently.
+This project highlights developing and deploying an image classification model using Amazon Web Services. We built a system that classifies images while effectively monitoring performance and managing inputs through Lambda functions. The successful testing of this workflow shows its capability to handle both accurate predictions and errors efficiently.
